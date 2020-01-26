@@ -1,0 +1,72 @@
+.container {
+    width: 1000px;
+
+    margin: 4rem auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 1rem 1rem 1rem lightgrey;
+    border-radius: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    color: dodgerblue;
+    font-size: 4rem;
+}
+
+h2, h3 {
+    color: cornflowerblue;
+}
+
+label, input {
+    color: cornflowerblue;
+
+}
+
+label {
+    font-size: 1rem;
+    margin: 5px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.numbers {
+    border: none;
+    box-shadow: 0 0.1rem 0.2rem 0.2rem lightgrey;
+    padding: 0.5rem 1rem;
+    margin: 0 0 0 0.5rem;
+    border-radius: 0.5rem;
+}
+
+input.button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0 0 0 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    box-shadow: 0 0.1rem 0.2rem 0.2rem lightgrey;
+}
+
+table,
+tr,
+td {
+    border: 2px solid gray;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
